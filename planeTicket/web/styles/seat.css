@@ -1,0 +1,36 @@
+body{
+    background: url("../images/b_image.jpg") no-repeat;
+    background-size: 1950px 970px
+}
+
+#modal_content{
+    background-color: navy
+}
+
+#account-body{
+    background-color: lightskyblue;
+    width: 50%;
+    position: absolute;
+    left: 26%;
+    top: 12%;
+    opacity: 0.9
+}
+
+#flight_add_btn{
+    background-color: navy;
+    color: gold;
+    border: none
+}
+#flight_add_btn:hover{
+    opacity: 0.8
+}
+
+#t_koltuk_no{
+    width: 100px;
+    color: navy
+}
+
+#f-option{
+    background-color: navy;
+    color: goldenrod
+}

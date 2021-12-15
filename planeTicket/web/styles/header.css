@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+
+#header{
+    background-color: goldenrod;
+    position: absolute;
+    height: 7%;
+    max-height: 7%;
+    width: 88%;
+    margin-left: 12%;
+}
+
+#dropdown-area{
+    position: absolute;
+    top: 10px;
+    left: 90%
+}
+
+#drp-btn{
+    width: 164px;
+    max-width: 164px;
+    height: 40px;
+    font-size: medium;
+    border: 2px solid navy;
+    color: navy
+}
+#drp-btn:hover{
+    background-color: navy;
+    color: goldenrod
+}
+#drp-btn:focus{
+    background-color: navy;
+    color: goldenrod
+}
+
+#drp-menu{
+    width: 164px;
+    font-size: medium;
+    background-color: goldenrod;
+}
+
+#drp-menu a{
+    color: navy
+}
+#drp-menu a:hover{
+    background-color: navy;
+    color: goldenrod
+}

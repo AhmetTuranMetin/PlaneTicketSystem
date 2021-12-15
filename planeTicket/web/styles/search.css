@@ -1,0 +1,25 @@
+body{
+    background: url("../images/b_image.jpg") no-repeat;
+    background-size: 1925px 802px;
+    background-position: 0px 100px
+}
+
+#bs-table{
+    position: absolute;
+    width: 77%;
+    left: 14%;
+    top: 24%;
+    font-size: 180%
+}
+
+#bs-table button{
+    font-size: 90%
+}
+
+.table-primary{
+    color: navy
+}
+
+.bg-info{
+    color: snow
+}

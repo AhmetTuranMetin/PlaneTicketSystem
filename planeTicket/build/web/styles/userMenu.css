@@ -1,0 +1,103 @@
+.menu-area{
+    background-color: lightskyblue;
+    width: 100%;
+    max-width: 100%;
+    height: 102px
+}
+
+.main-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+.main-menu li{
+    float: left;
+    margin: 7px;
+    margin-top: 18px;
+}
+
+.main-menu a, .main-menu i{
+    text-decoration: none;
+    background-color: lightskyblue;
+    font-weight: bold;
+    border: 2px solid navy;
+    font-size: x-large;
+    padding: 7px;
+    display: block;
+    text-align: center;
+    border-top: 7px solid navy;
+    color: navy;
+    cursor: default
+}
+.main-menu a:hover, .main-menu i:hover{
+    background-color: navy;
+    border: 1px solid snow;
+    border-top: 7px solid snow;
+    margin-top: 18px;
+    text-decoration: none;
+    color: snow
+}
+
+.sub-menu{
+    margin-top: 5%;
+}
+
+.sub-menu a{
+    border: 2px solid navy;
+    color: navy;
+    display: none
+}
+
+.sub-menu a:hover{
+    background-color: lightskyblue;
+    border: 2px solid snow;
+    margin-top: 0;
+    text-decoration: none;
+    color: snow
+}
+
+#first-item{
+    margin-left: 18%
+}
+
+.sub-menu-item:hover .sub-menu a{
+    display: block;
+}
+
+#dropdown-area{
+    position: absolute;
+    top: 18px;
+    left: 90%
+}
+
+#drp-btn{
+    width: 180px;
+    max-width: 180px;
+    height: 50px;
+    font-size: medium;
+    border: 2px solid navy;
+    color: navy
+}
+#drp-btn:hover{
+    background-color: navy;
+    color: lightskyblue
+}
+#drp-btn:focus{
+    background-color: navy;
+    color: lightskyblue
+}
+
+#drp-menu{
+    width: 180px;
+    font-size: medium;
+    background-color: lightskyblue;
+}
+
+#drp-menu a{
+    color: navy
+}
+#drp-menu a:hover{
+    background-color: navy;
+    color: lightskyblue
+}

@@ -1,0 +1,68 @@
+body{
+    background-color: navy;
+    display: flex;
+}
+
+#bs-table{
+    margin-left: 14%;
+    width: 1400px;
+    margin-left: 25%;
+    margin-top: 2%
+}
+
+#update-body{
+    background-color: goldenrod;
+    width: 50%;
+    position: absolute;
+    left: 28%;
+    top: 14%;
+}
+
+#success{
+    background-color: navy
+}
+
+.modal-content{
+    background-color: navy
+}
+
+#f-label{
+    color: gold
+}
+
+#m-title{
+    color: gold
+}
+
+#close-modal{
+    color: gold
+}
+
+#f-control{
+    color: navy
+}
+
+#f-option{
+    background-color: navy;
+    color: goldenrod
+}
+
+#checkbox{
+    margin-left: 82%;
+    margin-top: 2%
+}
+
+#t_ucus_id{
+    width: 100px;
+}
+
+#t_uye_id{
+    width: 100px;
+    position: absolute;
+    left: 180px;
+    top: 32px
+}
+
+#t_koltuk_no{
+    width: 100px
+}
